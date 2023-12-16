@@ -19,6 +19,7 @@ export default function Home() {
         <form onSubmit={handleSubmit} className="space-y-3">
           <input
             type="text"
+            required
             value={value}
             onChange={(e) => setValue(e.target.value)}
             className="w-full p-2 border border-gray-300 rounded text-black"
